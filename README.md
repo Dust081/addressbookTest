@@ -22,20 +22,13 @@
 
 **Запуск теста**
 <br>
-1)Убедиться что установлена Java;<br>
+1)Склонировать проект из репозитория;<br> 
 
-2)Скачать Gradle https://gradle.org/install/ и разархивировать папку;<br>
+2)Cкачать и установить Java https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox;<br>
 
-3)Склонировать проект из репозитория;<br> 
+3)Добавить переменные окружения:
+Зайти в Мой компьютер->Свойства->Дополнительные параметры среды->Переменные окружения ![alt text](/screenshots/JAVA_HOME.png) ;<br>
 
 4)В командной строке перейти в папку с проектом (cd ./addressbookTest);<br>
 
-5)В командной строке указать путь до gradle и команду build ,пример: «C:\gradle-6.6.1\bin\gradle build»;<br>
-
-6)Для запуска теста указать путь до gradle и команду run ,пример: «C:\gradle-6.6.1\bin\gradle run»;<br>
-
-*7)Для создания файла-исполнителя указать путь до gradle и команду wrappper «C:\gradle-6.6.1\bin\gradle wrapper»; <br>
-
-*8)В командной строке написать команду «gradlew build»;<br>
-
-*9) Запустить файл-исполнитель командой «gradlew run»;<br>
+5)Запустить тест командой «gradlew test --rerun-tasks».
