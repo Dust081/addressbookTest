@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AddUserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-05T06:19:12" hostname="LENOVO-PC" time="34.296">
+<testsuite name="AddUserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-05T14:35:17" hostname="LENOVO-PC" time="53.573">
   <properties/>
-  <testcase name="testCase" classname="AddUserTest" time="34.296"/>
+  <testcase name="testCase" classname="AddUserTest" time="53.573"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1601878754295	geckodriver	INFO	Listening on 127.0.0.1:10968
-1601878756949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilejgWAUH"
+1601908520831	geckodriver	INFO	Listening on 127.0.0.1:13323
+1601908524972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilePrfUkU"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1601878764799	Marionette	INFO	Listening on port 58926
-1601878765298	Marionette	WARN	TLS certificate errors will be ignored for this session
-окт 05, 2020 9:19:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1601908531469	Marionette	INFO	Listening on port 54331
+1601908531860	Marionette	WARN	TLS certificate errors will be ignored for this session
+окт 05, 2020 5:35:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1601878782874	Marionette	INFO	Stopped listening on port 58926
+1601908566123	Marionette	INFO	Stopped listening on port 54331
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
