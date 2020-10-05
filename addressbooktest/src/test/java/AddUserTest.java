@@ -10,10 +10,10 @@ public class AddUserTest {
     private WebDriver driver;
     private String baseUrl;
 
-
+//"C:\\WORRRRRKK\\addressbookTest\\FirefoxBrowser\\geckodriver.exe"
     @Before
     public void setUp(){
-        System.setProperty("webdriver.gecko.driver","PATH\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver",".\\geckodriver.exe");
         driver = new FirefoxDriver();
         baseUrl = "https://www.postable.com/";
         login();
