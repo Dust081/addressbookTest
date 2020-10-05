@@ -27,7 +27,9 @@
 2)Cкачать и установить Java https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox;<br>
 
 3)Добавить переменные окружения:
-Зайти в Мой компьютер->Свойства->Дополнительные параметры среды->Переменные окружения ![f](screenshots/JAVA_HOME.png) ;<br>
+Зайти в Мой компьютер->Свойства->Дополнительные параметры среды->Переменные окружения <br>![пример:](screenshots/PATH1.PNG) ;<br>
+
+![](screenshots/PATH.PNG)
 
 4)В командной строке перейти в папку с проектом (cd ./addressbookTest);<br>
 
