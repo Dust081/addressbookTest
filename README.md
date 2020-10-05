@@ -31,6 +31,6 @@
 
 ![](screenshots/PATH.PNG)
 
-4)В командной строке перейти в папку с проектом (cd ./addressbookTest);<br>
+4)В командной строке перейти в папку с проектом (cd ./addressbookTest/addressbooktest);<br>
 
 5)Запустить тест командой «gradlew test --rerun-tasks».
