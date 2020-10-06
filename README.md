@@ -33,4 +33,6 @@
 
 4)В командной строке перейти в папку с проектом (cd ./addressbookTest/addressbooktest);<br>
 
-5)Запустить тест командой «gradlew test --rerun-tasks».
+5)Запустить тест командой «gradlew test»;
+
+*6)Для повторного запуска командой «gradlew test --rerun-tasks».
